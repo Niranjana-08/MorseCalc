@@ -1,0 +1,32 @@
+                                            Morse Code Calculator
+
+The Morse Code Calculator is a simple program written in C that allows users to encode text into Morse code and decode Morse code back into text. It provides a user-friendly interface where users can input their text or Morse code and choose the desired operation (encoding or decoding).
+
+
+Features:
+
+1. Encoding to Morse Code: Users can input text, including alphanumeric characters and special symbols, and the program will convert it into Morse code.
+
+2. Decoding Morse Code: Users can input Morse code sequences, separating characters with spaces, and the program will decode it back into text.
+
+3. Case Insensitivity: The program handles input characters case-insensitively, ensuring accurate encoding and decoding.
+
+4. Error Handling: The program includes error handling mechanisms to detect and notify users of invalid input characters or Morse code sequences.
+
+
+How to Use:
+
+1. Compile the Program: Compile the program using a C compiler such as GCC. Use the following command:
+    gcc morse_code_calculator.c -o morse_code_calculator
+2. Run the Program: Execute the compiled program:
+    ./morse_code_calculator
+3. Select Operation: Choose the desired operation:
+
+    Enter '1' to encode text to Morse code.
+    Enter '2' to decode Morse code to text.
+    Enter '3' to exit the program.
+    Input: Follow the on-screen prompts to input text or Morse code, and press Enter.
+
+    Output: The program will display the encoded or decoded result accordingly.
+
+
