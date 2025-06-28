@@ -21,11 +21,11 @@ It features modular functions, comprehensive error handling, and a user-friendly
 
 1. Compile the program using GCC or any standard C compiler:
  ```bash
-gcc morse_code_calculator.c -o morse_code_calculator
+gcc main.c -o MorseCalc
    ```
 2. Run the executable:
  ```bash
-./morse_code_calculator
+./MorseCalc
    ```
 3. Follow the on-screen menu to encode or decode text and Morse code.
 
