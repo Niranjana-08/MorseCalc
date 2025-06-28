@@ -17,9 +17,9 @@ Features:
 How to Use:
 
 1. Compile the Program: Compile the program using a C compiler such as GCC. Use the following command:
-    gcc morse_code_calculator.c -o morse_code_calculator
+    gcc main.c -o MorseCalc
 2. Run the Program: Execute the compiled program:
-    ./morse_code_calculator
+    ./MorseCalc
 3. Select Operation: Choose the desired operation:
 
     Enter '1' to encode text to Morse code.
